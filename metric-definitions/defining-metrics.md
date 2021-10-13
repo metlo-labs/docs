@@ -12,11 +12,11 @@ _Note: We are showing a YAML interface here but you can also use the Web UI to b
 
 To make a definition you first have to supply some metadata:
 
-* **Name - **The name of the definition. This name is unique and will be used as a namespace for every metric you build inside of it.
-* **Owner - **The user (or group) that owns this definition
-* **Datasource - **The id of the database connection this definition will use
-* **Description - **A friendly description that describes what type of metrics and dimensions this definition will contain.
-* **Table - **The table metrics and dimensions inside this definition will be built on top of
+* **Name -** The name of the definition. This name is unique and will be used as a namespace for every metric you build inside of it.
+* **Owner -** The user (or group) that owns this definition
+* **Datasource -** The id of the database connection this definition will use
+* **Description -** A friendly description that describes what type of metrics and dimensions this definition will contain.
+* **Table -** The table metrics and dimensions inside this definition will be built on top of
 
 ```yaml
 name: ethereum_stats
@@ -30,8 +30,8 @@ table: bigquery-public-data.crypto_ethereum.transactions
 
 After you define the metadata for a definition, the next step is defining the dimensions you can slice and dice a metric by. This should be a mapping between the name of a dimension and the following fields:
 
-* **Description - **A friendly description for the dimension
-* **SQL - **The sql for the column you want this dimension to reference
+* **Description -** A friendly description for the dimension
+* **SQL -** The sql for the column you want this dimension to reference
 
 ```yaml
 dimensions:
@@ -54,10 +54,10 @@ dimensions:
 
 Metrics are the actual aggregations on top of the table that you care about. Each metric has the following fields:
 
-* **Name - **The name of the metric
-* **Description - **A friendly description for the metric
+* **Name -** The name of the metric
+* **Description -** A friendly description for the metric
 * **Type -** The type of metric, This can be an aggregation (sum, count, count_distinct, etc…)
-* **SQL - **The sql for the column you want the metric to reference
+* **SQL -** The sql for the column you want the metric to reference
 
 ```yaml
 metrics:
