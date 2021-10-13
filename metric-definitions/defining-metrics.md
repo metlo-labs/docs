@@ -48,6 +48,8 @@ dimensions:
     sql: block_timestamp
 ```
 
+*Note: You need to specify at least one time dimension in each definition*
+
 ## Metrics
 
 Metrics are the actual aggregations on top of the table that you care about. Each metric has the following fields:
