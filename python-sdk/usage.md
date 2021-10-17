@@ -120,3 +120,16 @@ query(
 # 2  2019-07-01T00:00:00.000Z       1123
 ```
 
+Here are the different time granularities:
+
+```python
+class TimeGranularity(str, Enum):
+    SECOND = 'second'
+    MINUTE = 'minute'
+    HOUR = 'hour'
+    DAY = 'day'
+    WEEK = 'week'
+    MONTH = 'month'
+    YEAR = 'year'
+```
+
