@@ -28,3 +28,7 @@
 * [Authentication](rest-api/authentication.md)
 * [Endpoints](rest-api/endpoints.md)
 * [Examples](rest-api/examples.md)
+
+## JDBC
+
+* [Connecting with JDBC](jdbc/connecting-with-jdbc.md)
