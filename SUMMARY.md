@@ -14,6 +14,10 @@
 * [Validating Definitions](metric-definitions/validating-definitions.md)
 * [Streaming](metric-definitions/streaming.md)
 
+## Metric Health Checks
+
+* [Creating Metric Health Checks](metric-health-checks/creating-metric-health-checks.md)
+
 ## Python SDK
 
 * [Installing Python](python-sdk/installing-python.md)
