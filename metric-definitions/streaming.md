@@ -1,3 +1,9 @@
+---
+description: >-
+  A guide on how to configure streaming for realtime metrics. Note: To use this
+  feature your instance of Metlo must have streaming enabled.
+---
+
 # Streaming
 
 Metlo currently uses [Materialize](https://materialize.com) to stream metric data. You can build metrics on top of any stream of data that Materialize Supports.
@@ -40,7 +46,7 @@ This Kinesis stream has trip data in the following JSON format:
 
 ## Adding a Stream to a Metric Definition
 
-After you add a source you can add a stream built on top of this source in your definition file. You should use SQL (Most Postgres functions will work) to transform the source data to match the batch table you already have defined. 
+After you add a source you can add a stream built on top of this source in your definition file. You should use SQL (Most Postgres functions will work) to transform the source data to match the batch table you already have defined.&#x20;
 
 In this case we will use Postgres's JSON functions to extract all the fields we want and then cast them to the correct type:
 
