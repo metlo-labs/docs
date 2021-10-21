@@ -16,7 +16,8 @@
 
 ## Metric Health Checks
 
-* [Creating Metric Health Checks](metric-health-checks/creating-metric-health-checks.md)
+* [Creating Health Checks](metric-health-checks/creating-metric-health-checks.md)
+* [Editing Health Checks](metric-health-checks/editing-health-checks.md)
 
 ## Python SDK
 
