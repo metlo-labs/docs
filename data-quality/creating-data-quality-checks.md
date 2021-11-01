@@ -37,7 +37,7 @@ Depending on the kind of check defined in the `Info` section, some parameters ne
 
 ## Schedule
 
-The next step is to setup the schedule for data quality checks
+The next step is to setup the schedule for data quality checks. The time is in UTC.
 
 * Time of Day - Time when the check should run
 * Window Size - The period for which the data is to be analyzed
