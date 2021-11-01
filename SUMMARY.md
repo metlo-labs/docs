@@ -33,3 +33,8 @@
 ## JDBC
 
 * [Connecting with JDBC](jdbc/connecting-with-jdbc.md)
+
+
+## Data Quality
+
+* [Table Freshness](data-quality/freshness.md)
