@@ -8,31 +8,31 @@ Currently available quality checks are:&#x20;
 
 | Check Name         | Param Name      | Type    | Required               |
 | ------------------ | --------------- | ------- | ---------------------- |
-| Cardinality        | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Average            | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Count              | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Duplicate\_percent | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Max                | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Num\_nulls         | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Min                | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Pct\_nulls         | column          | SQL     | True                   |
-|                    | lower\_count    | float   | True                   |
-|                    | upper\_count    | float   | True                   |
-| Is\_uuid           | column          | SQL     | True                   |
-| Regex              | column          | SQL     | True                   |
+| cardinality        | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| average            | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| count              | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| duplicate\_percent | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| max                | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| num\_nulls         | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| min                | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| pct\_nulls         | column          | SQL     | True                   |
+|                    | lower\_bound    | float   | True                   |
+|                    | upper\_bound    | float   | True                   |
+| is\_uuid           | column          | SQL     | True                   |
+| regex              | column          | SQL     | True                   |
 |                    | pattern         | string  | True                   |
 |                    | case\_sensitive | boolean | False (default : True) |
