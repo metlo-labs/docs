@@ -34,7 +34,9 @@
 
 * [Connecting with JDBC](jdbc/connecting-with-jdbc.md)
 
-
 ## Data Quality
 
 * [Table Freshness](data-quality/freshness.md)
+* [Creating Data Quality Checks](data-quality/creating-data-quality-checks.md)
+* [Editing Data Quality Checks](data-quality/editing-data-quality-checks.md)
+* [Available Quality Checks](data-quality/available-quality-checks.md)
