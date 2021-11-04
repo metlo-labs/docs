@@ -8,7 +8,7 @@ Metlo is a toolkit to discover and operationalize data.
 
 * **Metric Store - **Define your metrics in once place, and use them anywhere
 * **Metric Health Checks** - Get Slack alerts for changes in important metrics
-* **Data Catalog** - Search through all of your data assets
+* **Data Catalog** - Search through and annotate all of your data assets
 * **Data Quality Checks** - Define table quality checks to make sure your data is clean
 
 Feel free to email [akshay@metlo.com](mailto:akshay@metlo.com) with any questions!
@@ -18,6 +18,14 @@ Feel free to email [akshay@metlo.com](mailto:akshay@metlo.com) with any question
 Metlo's Metric store is the single source of truth repository to create, store, and query all your business metrics in a standardized way. You can build metrics with data in your warehouse, and query them wherever you want with SQL, our REST API, or our Python SDK. This makes sure that everyone in your organization gets the same, high quality data for every metric you care about.
 
 ![](<.gitbook/assets/Screen Shot 2021-11-03 at 8.14.00 PM.png>)
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
