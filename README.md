@@ -25,7 +25,7 @@ Metlo's Metric store is the single source of truth repository to create, store, 
 
 ## Metric Health Checks
 
-After you have defined a Metric you can set up Slack Alerts for metric changes by defining Metric Health Checks.&#x20;
+After you have defined a Metric you can set up Slack Alerts for metric changes by defining Metric Health Checks.
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -33,9 +33,11 @@ After you have defined a Metric you can set up Slack Alerts for metric changes b
 
 ## Data Catalog
 
-Search through all your data assets (from tables to dashboards) using Metlo.
+You can search through all your data assets (from tables to dashboards) using Metlo. You can also annotate tables and columns by adding descriptions and tags.
 
 ![](<.gitbook/assets/Screen Shot 2021-11-03 at 8.30.19 PM.png>)
+
+![](<.gitbook/assets/Screen Shot 2021-11-03 at 8.20.01 PM (2).png>)
 
 ## Data Quality Checks
 
